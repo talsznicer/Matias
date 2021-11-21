@@ -13,6 +13,9 @@ public class colliderScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        void OnTriggerEnter(Collider other)
+        {
+            Debug. Log ("Object is within trigger");
+        }
     }
 }
